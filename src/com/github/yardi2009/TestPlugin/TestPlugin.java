@@ -14,7 +14,7 @@ public final class TestPlugin extends JavaPlugin
 	{
 		getLogger().info("TestPlugin has been disabled");
 	}
-    public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args)
+    public boolean onCommand(CommandSender sender,Command cmd,String label,String[] args)
     {
     	if(cmd.getName().equalsIgnoreCase("diamonds"))
     	{
