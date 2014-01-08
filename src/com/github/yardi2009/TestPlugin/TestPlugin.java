@@ -25,7 +25,7 @@ public final class TestPlugin extends JavaPlugin
     			player.getInventory().addItem(diamonds);
     		}
     		else
-    			sender.sendMessage("You do not have a premission to use that command");
+    			sender.sendMessage("You have to be an operator to use that command");
     		return true;
     	}
     	return false; 
